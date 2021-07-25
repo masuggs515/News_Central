@@ -1,0 +1,82 @@
+.showcase{
+    height: 20vh;
+    border-bottom: 2px black solid;
+    text-align: center;
+    background-color: #eee;
+}
+
+.showcase h1 {
+    margin: 0;
+    padding-top: 3vh;
+    font-size: 3rem;
+}
+
+.showcase p {
+    font-size: 1.5rem;
+}
+
+.main{
+    width: 60vw;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    float: left;
+}
+
+.sidePanel {
+    margin-right: 5vw;
+    width: 15vw;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+    float: right;
+}
+
+.sidePanel h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.storyItem {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px rgba(0,0,0,0.2);
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.storyItem:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.storyItem img {
+    width: 100%;
+}
+
+.storyItem h4 {
+    margin: 0;
+    padding: 15px;
+    font-weight: 700;
+}
+
+/* Category styles */
+
+
+.category{
+    margin: 40px 15vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    float: left;
+}
+
+.catTitle {
+    text-align: center;
+    margin-top: 5vh;
+}
